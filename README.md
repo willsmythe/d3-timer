@@ -1,5 +1,7 @@
 # d3-timer
 
+[![Build Status](https://dev.azure.com/d3/d3/_apis/build/status/d3.d3-timer)](https://dev.azure.com/d3/d3/_build/definition?definitionId=28)
+
 This module provides an efficient queue capable of managing thousands of concurrent animations, while guaranteeing consistent, synchronized timing with concurrent or staged animations. Internally, it uses [requestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) for fluid animation (if available), switching to [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout) for delays longer than 24ms.
 
 ## Installing
